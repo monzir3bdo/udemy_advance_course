@@ -58,5 +58,55 @@ ThemeData appTheme() {
       bodySmall: getRegularStyle(color: ColorsManager.grey1),
       bodyLarge: getRegularStyle(color: ColorsManager.grey),
     ),
+    inputDecorationTheme: InputDecorationTheme(
+      contentPadding: const EdgeInsets.all(AppPadding.p8),
+      hintStyle: getRegularStyle(color: ColorsManager.grey1),
+      labelStyle: getMediumStyle(
+        color: ColorsManager.darkGrey,
+      ),
+      errorStyle: getRegularStyle(
+        color: ColorsManager.error,
+      ),
+      //enabled border
+      enabledBorder: OutlineInputBorder(
+        borderSide: BorderSide(
+          color: ColorsManager.grey,
+          width: AppSize.s1_5,
+        ),
+        borderRadius: const BorderRadius.all(
+          Radius.circular(AppSize.s8),
+        ),
+      ),
+      //focus border
+      focusedBorder: OutlineInputBorder(
+        borderSide: BorderSide(
+          color: ColorsManager.primary,
+          width: AppSize.s1_5,
+        ),
+        borderRadius: const BorderRadius.all(
+          Radius.circular(AppSize.s8),
+        ),
+      ),
+      //error border
+      errorBorder: OutlineInputBorder(
+        borderSide: BorderSide(
+          color: ColorsManager.error,
+          width: AppSize.s1_5,
+        ),
+        borderRadius: const BorderRadius.all(
+          Radius.circular(AppSize.s8),
+        ),
+      ),
+      //focused error
+      focusedErrorBorder: OutlineInputBorder(
+        borderSide: BorderSide(
+          color: ColorsManager.error,
+          width: AppSize.s1_5,
+        ),
+        borderRadius: const BorderRadius.all(
+          Radius.circular(AppSize.s8),
+        ),
+      ),
+    ),
   );
 }

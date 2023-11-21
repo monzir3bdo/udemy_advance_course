@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'colors_manager.dart';
 import 'fonts_manager.dart';
 
-ThemeData appTheme() {
+ThemeData getApplicationTheme() {
   return ThemeData(
     primaryColor: ColorsManager.primary,
     primaryColorLight: ColorsManager.primaryWithOpacity70,
@@ -33,7 +33,7 @@ ThemeData appTheme() {
     ),
     //Button Theme
     buttonTheme: ButtonThemeData(
-      shape: StadiumBorder(),
+      shape: const StadiumBorder(),
       buttonColor: ColorsManager.primary,
       disabledColor: ColorsManager.grey1,
       splashColor: ColorsManager.primaryWithOpacity70,

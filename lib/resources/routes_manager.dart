@@ -2,9 +2,9 @@ import 'package:clean_architecture/presentation/forget_password/forget_password.
 import 'package:clean_architecture/presentation/login/login.dart';
 import 'package:clean_architecture/presentation/onboarding/onboarding.dart';
 import 'package:clean_architecture/presentation/register/register.dart';
-import 'package:clean_architecture/presentation/splash/splash.dart';
+import 'package:clean_architecture/presentation/splash/splash_view.dart';
 import 'package:clean_architecture/resources/strings_manager.dart';
-import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
 
 import '../presentation/main/main_view..dart';

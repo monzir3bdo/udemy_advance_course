@@ -1,8 +1,9 @@
-import 'package:clean_architecture/presentation/colors_manager.dart';
-import 'package:clean_architecture/presentation/fonts_manager.dart';
-import 'package:clean_architecture/presentation/styles_manager.dart';
-import 'package:clean_architecture/presentation/values_manager.dart';
+import 'package:clean_architecture/resources/styles_manager.dart';
+import 'package:clean_architecture/resources/values_manager.dart';
 import 'package:flutter/material.dart';
+
+import 'colors_manager.dart';
+import 'fonts_manager.dart';
 
 ThemeData appTheme() {
   return ThemeData(
